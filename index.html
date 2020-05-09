@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Project1</title>
+	<link rel="stylesheet" type="text/css" href="variable.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<style type="text/css">
 		input[type=text]{
@@ -34,6 +35,30 @@
 			h1::before{
 				content:"Welcome!";
 			}
+		}
+		.container > div{
+			background: lightgreen;
+			width:150px;
+			margin: 20px;
+			padding:20px;
+		}
+		.container{
+			display:flex;
+			flex-wrap:wrap;
+		}
+		.grid{
+			display: grid;
+			background: green;
+			padding:5px;
+			grid-column-gap: 5px;
+			grid-row-gap:5px;
+			grid-template-columns:200px auto auto;
+		}
+		.grid-item{
+			background:white;
+			padding:10px;
+			margin: 5px;
+
 		}
 
 	</style>
@@ -69,6 +94,82 @@
 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	<p> This is paragraph 2</p>
 	<p class="screen">This is paragraph 3 can not seen in print</p>
+	<h2>Flex box</h2>
+	<div class="container">
+		<div>A.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+		<div>B.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+		<div>C.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+		<div>D.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+		<div>E.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+		<div>F.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+		<div>G.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+		<div>H.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+	</div>
+	<h2>Grid</h2>
+	<div class="grid">
+		<div class="grid-item">1</div>
+		<div class="grid-item">2</div>
+		<div class="grid-item">3</div>
+		<div class="grid-item">4</div>
+		<div class="grid-item">5</div>
+		<div class="grid-item">6</div>
+		<div class="grid-item">7</div>
+		<div class="grid-item">8</div>
+		<div class="grid-item">9</div>
+		<div class="grid-item">10</div>
+		<div class="grid-item">11</div>
+		<div class="grid-item">12</div>
+	</div>
+	<ul>
+		<li>Hello</li>
+		<li>How Are You</li>
+		<li>Mingalabar</li>
+	</ul>
+	<ol>
+		<li>Chit Phyo Oo</li>
+		<li>Ye Ko Htun</li>
+		<li>Aung Khant Zaw</li>
+	</ol>
 
 </body>
 </html>
